@@ -1,0 +1,23 @@
+{
+  "name": "restaurant2",
+  "version": "1.0.0",
+  "description": "Restaurant page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarencechaan/restaurant2.git"
+  },
+  "author": "Clarence Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarencechaan/restaurant2/issues"
+  },
+  "homepage": "https://github.com/clarencechaan/restaurant2#readme",
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
