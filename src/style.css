@@ -1,4 +1,116 @@
+body {
+    margin: 0;
+    background-image: 
+    linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
+        url('./pizza.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
 #content {
-    color: red;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    height: 120px;
+    background-color: rgb(0,0,0,.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(197, 197, 197);
+}
+
+.header-links {
+    display: flex;
+    column-gap: 100px;
+    justify-content: center;
+}
+
+.header-item {
+    cursor: pointer;
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+    color: white;
+}
+
+.header-item:hover,
+.highlighted {
+    color: #b9961f;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.big-logo-1 {
+    font-family: 'Allura', cursive;
+    color: white;
     font-size: 100px;
+    line-height: 0;
+    z-index: 1;
+}
+
+.big-logo-2 {
+    font-family: 'League Gothic', sans-serif;
+    color: #b9961f;
+    font-size: 100px;
+}
+
+.menu {
+    width: 80vw;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 30px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 100px;
+    font-family: 'Shadows Into Light', cursive;
+    border-radius: 5px;
+}
+
+.menu-item {
+    width: 100%;
+}
+
+.menu-item-top-row {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+.about,
+.contact {
+    width: 80vw;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
 }
